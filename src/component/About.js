@@ -11,7 +11,7 @@ const About = () => {
           modern web technologies like React, JavaScript, and Tailwind CSS, I aim to deliver high-quality, responsive designs and
           functionality. I enjoy solving challenges and learning new tools to enhance my skills.
         </p>
-        <img src={image} alt="Your Photo" className="rounded-full w-40 h-40 mx-auto shadow-md" />
+        <img src={image} alt="" className="rounded-full w-40 h-40 mx-auto shadow-md" />
       </div>
     </section>
   );
