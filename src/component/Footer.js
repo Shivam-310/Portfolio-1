@@ -13,7 +13,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Offering</h3>
           <ul className="space-y-2">
@@ -24,7 +23,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Our Services</h3>
           <ul className="space-y-2">
@@ -35,7 +33,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Our Mantra</h3>
           <ul className="space-y-2">
@@ -46,7 +43,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Web Policy</h3>
           <ul className="space-y-2">
@@ -58,16 +54,8 @@ const Footer = () => {
         </div>
       </div>
 
-      Social Media
       <div className="mt-10 text-center">
         <h3 className="text-lg font-semibold mb-4 text-white">Follow Us</h3>
-        <div className="flex justify-center space-x-4">
-          <a href="#" className="text-2xl hover:text-gray-400"><i className="fab fa-linkedin"></i></a>
-          <a href="#" className="text-2xl hover:text-gray-400"><i className="fab fa-twitter"></i></a>
-          <a href="#" className="text-2xl hover:text-gray-400"><i className="fab fa-whatsapp"></i></a>
-          <a href="#" className="text-2xl hover:text-gray-400"><i className="fab fa-youtube"></i></a>
-          <a href="#" className="text-2xl hover:text-gray-400"><i className="fab fa-instagram"></i></a>
-        </div>
       </div>
       <div className="container mx-auto text-center">
         <p>&copy; 2025 SHIVAM. All Rights Reserved.</p>

@@ -12,7 +12,6 @@ const AboutSection = () => {
         <p className="text-gray-600 text-lg mb-10">
           I help businesses and individuals create user-friendly and scalable web applications!
         </p>
-
         
         <div className="flex flex-col md:flex-row items-center justify-between space-y-10 md:space-y-0 md:space-x-10">
           
@@ -26,7 +25,6 @@ const AboutSection = () => {
               <div className="absolute inset-0 bg-blue-600 rounded-full opacity-30 blur-lg"></div>
             </div>
           </div>
-
           
           <div className="md:w-2/3 text-left space-y-6">
             <p className="text-gray-700 leading-relaxed">
