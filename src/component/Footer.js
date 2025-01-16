@@ -8,48 +8,48 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Courses</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-gray-400">How the Stock Market Works Online?</a></li>
-            <li><a href="#" className="hover:text-gray-400">How to become an Angel Investor?</a></li>
+            <li>How the Stock Market Works Online?</li>
+            <li>How to become an Angel Investor?</li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Offering</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-gray-400">IPO Advisory</a></li>
-            <li><a href="#" className="hover:text-gray-400">Pre-IPO Advisory</a></li>
-            <li><a href="#" className="hover:text-gray-400">Mutual Fund Advisory</a></li>
-            <li><a href="#" className="hover:text-gray-400">Startup Investment Advisory</a></li>
+            <li>IPO Advisory</li>
+            <li>Pre-IPO Advisory</li>
+            <li>Mutual Fund Advisory</li>
+            <li>Startup Investment Advisory</li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Our Services</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-gray-400">Research Advisory</a></li>
-            <li><a href="#" className="hover:text-gray-400">Startup Consulting</a></li>
-            <li><a href="#" className="hover:text-gray-400">Business Analysis</a></li>
-            <li><a href="#" className="hover:text-gray-400">Personal Counselling</a></li>
+            <li>Research Advisory</li>
+            <li>Startup Consulting</li>
+            <li>Business Analysis</li>
+            <li>Personal Counselling</li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Our Mantra</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-gray-400">Empathy</a></li>
-            <li><a href="#" className="hover:text-gray-400">Flexibility</a></li>
-            <li><a href="#" className="hover:text-gray-400">Quality</a></li>
-            <li><a href="#" className="hover:text-gray-400">Cost Consciousness</a></li>
+            <li>Empathy</li>
+            <li>Flexibility</li>
+            <li>Quality</li>
+            <li>Cost Consciousness</li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Web Policy</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-gray-400">Privacy Policy</a></li>
-            <li><a href="#" className="hover:text-gray-400">Terms of Use</a></li>
-            <li><a href="#" className="hover:text-gray-400">Disclaimer</a></li>
-            <li><a href="#" className="hover:text-gray-400">Refund Policy</a></li>
+            <li>Privacy Policy</li>
+            <li>Terms of Use</li>
+            <li>Disclaimer</li>
+            <li>Refund Policy</li>
           </ul>
         </div>
       </div>
