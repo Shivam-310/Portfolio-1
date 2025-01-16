@@ -34,7 +34,7 @@ const Footer = () => {
             <li><a href="#" className="hover:text-gray-400">Personal Counselling</a></li>
           </ul>
         </div>
-
+        
         {/* Our Mantra */}
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Our Mantra</h3>
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Social Media */}
+      Social Media
       <div className="mt-10 text-center">
         <h3 className="text-lg font-semibold mb-4 text-white">Follow Us</h3>
         <div className="flex justify-center space-x-4">

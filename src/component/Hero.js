@@ -6,6 +6,7 @@ const Hero = () => {
       <div className="container mx-auto">
         <h1 className="text-5xl font-bold mb-4">Hi, I'm Shivam Chaudhary</h1>
         <p className="text-xl mb-6">A passionate Web Developer specializing in building amazing web experiences.</p>
+        
         <div className="space-x-4">
           <a href="#projects" className="bg-white text-blue-600 py-2 px-4 rounded-md hover:bg-gray-200">
             View My Work

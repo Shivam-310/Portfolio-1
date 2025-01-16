@@ -6,13 +6,13 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "A modern portfolio showcasing my skills and projects.",
       tech: ["React", "Tailwind CSS"],
-      link: "#",
+      link: "https://shivam-portfolio-31.netlify.app/",
     },
     {
       title: "E-commerce Platform",
       description: "An online shopping platform with cart functionality.",
       tech: ["React", "Node.js", "MongoDB"],
-      link: "#",
+      link: "https://github.com/Shivam-310",
     },
   ];
 
