@@ -6,6 +6,7 @@ import Contact from './component/contact'
 import About from './component/About'
 import Hero from './component/Hero'
 import Work from './component/Work'
+import AboutSection from './component/AboutSection'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Hero/>
       <About/>
       <Work/>
+      <AboutSection/>
       <Projects/>
       <Contact/>
       <Footer/>

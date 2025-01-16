@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-gray-300 py-10">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 text-center md:text-left">
-        {/* Courses */}
+        
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Courses</h3>
           <ul className="space-y-2">
@@ -13,7 +13,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Offering */}
+        
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Offering</h3>
           <ul className="space-y-2">
@@ -24,7 +24,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Our Services */}
+        
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Our Services</h3>
           <ul className="space-y-2">
@@ -34,8 +34,8 @@ const Footer = () => {
             <li><a href="#" className="hover:text-gray-400">Personal Counselling</a></li>
           </ul>
         </div>
+
         
-        {/* Our Mantra */}
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Our Mantra</h3>
           <ul className="space-y-2">
@@ -46,7 +46,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Web Policy */}
+        
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Web Policy</h3>
           <ul className="space-y-2">
