@@ -22,7 +22,7 @@ const AboutSection = () => {
                 alt="Developer"
                 className="rounded-full w-48 h-48 shadow-lg border-4 border-blue-600"
               />
-              <div className="absolute inset-0 bg-blue-600 rounded-full opacity-30 blur-lg"></div>
+              <div className="absolute bg-blue-600 rounded-full opacity-30 blur-lg"></div>
             </div>
           </div>
           
