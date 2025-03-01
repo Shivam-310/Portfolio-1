@@ -28,7 +28,7 @@ const AboutSection = () => {
           
           <div className="md:w-2/3 text-left space-y-6">
             <p className="text-gray-700 leading-relaxed">
-              Hi, I'm SHIVAM! Over the years, I’ve developed a passion for creating responsive
+              Hi, I'm SHIVAM! Over the years, I’ve a passion for creating responsive
               web applications and simplifying complex problems. My goal is to empower people to
               bring their ideas to life through technology.
             </p>
