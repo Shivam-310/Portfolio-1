@@ -1,36 +1,54 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import Cart from "./Cart";
 
 const Work = () => {
   const services = [
     {
       title: "Web Development",
-      description: "Building responsive and high-performance websites using modern technologies like React and Tailwind CSS.",
+      description: "Building responsive and high-performance websites.",
       icon: "🌐",
     },
     {
       title: "UI/UX Design",
-      description: "Creating user-friendly interfaces and ensuring a seamless user experience.",
+      description: "Creating user-friendly interfaces.",
       icon: "🎨",
     },
     {
       title: "Performance Optimization",
-      description: "Optimizing web applications for speed, scalability, and efficiency.",
+      description: "Optimizing web applications for speed and scalability.",
       icon: "⚡",
     },
     {
       title: "Backend Integration",
-      description: "Integrating robust backend solutions using Node.js, Express, and MongoDB.",
+      description: "Integrating robust backend solutions.",
       icon: "🔗",
     },
   ];
+
+  const openCartWindow = () => {
+    const newWindow = window.open(
+      "",
+      "_blank",
+      "width=800,height=600,left=200,top=200"
+    );
+
+    if (newWindow) {
+      newWindow.document.title = "Cart";
+      const root = document.createElement("div");
+      newWindow.document.body.appendChild(root);
+
+      // Render the Cart component into the new window
+      ReactDOM.createRoot(root).render(<Cart />);
+    } else {
+      alert("Please allow popups for this website.");
+    }
+  };
 
   return (
     <section id="what-i-do" className="py-16 bg-gray-50">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-6">What I Do</h2>
-        <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-          As a developer, I specialize in creating modern, efficient, and visually appealing web applications. Here’s how I can help you:
-        </p>
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <div
@@ -39,7 +57,13 @@ const Work = () => {
             >
               <div className="text-5xl mb-4">{service.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-              <p className="text-gray-600">{service.description}</p>
+              <p className="text-gray-600 mb-4">{service.description}</p>
+              <button
+                onClick={openCartWindow}
+                className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+              >
+                Services
+              </button>
             </div>
           ))}
         </div>

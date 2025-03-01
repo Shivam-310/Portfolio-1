@@ -7,7 +7,7 @@ const Header = () => {
         <h1 className="text-2xl font-bold">Portfolio</h1>
         <ul className="flex space-x-6">
           <li>
-            <a href="#hero" className="hover:text-blue-400">Home</a>
+            <a href="/" className="hover:text-blue-400">Home</a>
           </li>
           <li>
             <a href="#about" className="hover:text-blue-400">About</a>
